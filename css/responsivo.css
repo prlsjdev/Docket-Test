@@ -1,0 +1,183 @@
+@media only screen and (min-width: 980px) and (max-width: 1400px) {
+    .graf {
+        position: relative;
+        float: right;
+        width: 100%;
+        height: 100%;
+        top: -400px;
+        left: 300px;
+    }
+    #topo-mob,
+    #menu-mob {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .graf {
+        display: none;
+    }
+    #topo-mob,
+    #menu-mob {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+    .graf {
+        display: none;
+    }
+    .footer_logo {
+        float: left;
+        margin-left: 30px;
+        margin-top: 22px;
+        max-width: 50%;
+    }
+    .ul-1 {
+        margin-left: -50px;
+        margin-right: 30px;
+    }
+    .footer_logo::after {
+        content: "";
+        background: url("../img/Line3.png") no-repeat;
+        color: #fff;
+        display: block;
+        height: 80px;
+        font-size: 100px;
+        margin-left: 100px;
+        bottom: 60px;
+        position: relative;
+    }
+    .list_footer ul {
+        display: block;
+        padding-right: 20px;
+        color: #fff;
+        float: left;
+        padding-top: 30px;
+    }
+    #topo-mob,
+    #menu-mob {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 788px) {
+    .graf {
+        display: none;
+    }
+    .bg-intro {
+        width: 100%;
+    }
+    .header_menu ul li {
+        display: inline-block;
+    }
+    .icon-menu {
+        position: absolute;
+        top: 25px;
+        right: 5px;
+    }
+    .header_menu_logo img {
+        display: block;
+    }
+    .list-1 {
+        float: none;
+        max-width: 400px;
+    }
+    .list-2 {
+        float: none;
+        max-width: 400px;
+    }
+    .content_intro input {
+        width: 300px;
+        height: 50px;
+    }
+    .content_intro {
+        margin-top: 200px;
+    }
+    .content_intro h1 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .content_intro h2 {
+        margin-bottom: 30px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .btn {
+        top: 100px;
+    }
+    .about_us_intro {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .about_us_intro h1 {
+        font-size: 18px;
+        padding: 100px 0 20px 0;
+    }
+    .about_us_intro h1:last-child {
+        font-size: 14px;
+        padding: 20px 0 20px 0;
+    }
+    .about_us_intro p {
+        font-size: 16px;
+        padding-bottom: 60px;
+        display: inline-block;
+        text-align: center;
+    }
+    .what_we_can_do h1 {
+        margin-top: 100px;
+        margin-left: 50px;
+        padding-bottom: 56px;
+        font-size: 34px;
+        color: #542F61;
+    }
+    .footer_logo {
+        margin-left: 15px;
+    }
+    .footer_logo::after {
+        content: "";
+        background: url("../img/Line3.png") no-repeat;
+        color: #fff;
+        display: block;
+        height: 100px;
+        width: 100px;
+        font-size: 100px;
+        margin-left: 150px;
+        bottom: 60px;
+        position: relative;
+    }
+    .list_footer ul {
+        display: block;
+        padding-right: 10px;
+        color: #fff;
+        height: 200px;
+        float: left;
+        padding-top: 53px;
+    }
+    .list_footer ul li {
+        font-family: Quicksand-Regular;
+        font-size: 14px;
+        padding-bottom: 9px;
+    }
+    .list_footer ul a {
+        color: #fff;
+    }
+    .ul-1 {
+        margin-left: -80px;
+        margin-right: 10px;
+    }
+    .list_footer ul a:hover {
+        text-decoration: underline #fff;
+    }
+    .title_footer {
+        font-family: Quicksand-Medium;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .social img {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+}
